@@ -1,0 +1,19 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+*.dll
+*.dylib
+*.pyd
+
+# Virtual Environments (each component has its own venv)
+data_scraper/venv/
+etl_pipeline/venv/
+model_training/venv/
+api/venv/
+
+# Python Dependencies
+*.egg-info/
+pip-log.txt
+pip-delete-this-directory.txt
+
